@@ -30,9 +30,11 @@ public class TaskManager {
 
                 case "list":
                     listTask(tasks);
+                    break;
 
                 case "remove":
-                    removeTask(tasks);
+                    tasks = removeTask(tasks);
+                    break;
             }
         }
     }
